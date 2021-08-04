@@ -97,7 +97,6 @@ class MiApp(wx.Frame):
             self.static2.SetLabel('La letra ingresada esta en mínusculas')
             self.SetIcon(self.icono[2])
 
-
     
 
 
