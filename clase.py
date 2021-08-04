@@ -20,20 +20,20 @@ class MiApp(wx.Frame):
 
         # Icono
 
-        self.icono =(wx.Icon('caps_icon.png'),wx.Icon('caps_icon_r.png'),wx.Icon('caps_icon_b.png'))
+        self.icono =(wx.Icon('resources/caps_icon.png'),wx.Icon('resources/caps_icon_r.png'),wx.Icon('resources/caps_icon_b.png'))
         
         
 
 
         # Contenido de los paneles
         
-        self.imagen = wx.StaticBitmap(p1, -1, wx.Bitmap('caps_icon.png'))
+        self.imagen = wx.StaticBitmap(p1, -1, wx.Bitmap('resources/caps_icon.png'))
         self.imagen.SetBackgroundColour('#ffffff')
         static = wx.StaticText(p1, -1, 'Calibracion')
         self.ctrol_txt = wx.TextCtrl(p1, -1)
 
         button = wx.Button(p2, -1, 'Calibrar')
-        self.static2 = wx.StaticText(p2, -1, 'Escriba un letra para calibrar el programa')
+        self.static2 = wx.StaticText(p2, -1, 'Escriba una letra para calibrar el programa')
 
 
         # Agregar a los sizers

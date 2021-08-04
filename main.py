@@ -1,5 +1,5 @@
+#! /usr/bin/env python3
 import wx
-from wx.core import SIZE_USE_EXISTING 
 from clase import MiApp
 from pynput import keyboard as kb
 
